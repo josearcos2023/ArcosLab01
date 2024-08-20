@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ArcosLab01
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -25,7 +25,7 @@ namespace ArcosLab01
             Console.WriteLine(area);
             Console.WriteLine("El perímetro es: ");
             Console.WriteLine(perimetro);
-*/
+
             string nombre = "David";
             string apellido = "Arcos";
 
@@ -42,7 +42,21 @@ namespace ArcosLab01
                 CodigoEstudiante = "123456789"
             };
 
-            Console.WriteLine("Hola Mundo");
+            Console.WriteLine(estudiante.CodigoEstudiante);
+            
+            */
+
+            Rectangulo rectangulo = new Rectangulo()
+            {
+                puntoA = new Coordenada() { Abscisa = 0, Ordenada = 8 },
+                puntoB = new Coordenada() { Abscisa = 4, Ordenada = 8 },
+                puntoC = new Coordenada() { Abscisa = 4, Ordenada = 0 },
+                puntoD = new Coordenada() { Abscisa = 0, Ordenada = 0 },
+            };
+
+
+            Console.WriteLine(rectangulo.CalcularArea());
+            Console.WriteLine(rectangulo.Perimetro());
             Console.Read();
 
 
