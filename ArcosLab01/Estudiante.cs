@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ArcosLab01
 {
-    public class Estudiante
+    public class Estudiante : Persona
     {
-        public string CodigoEstudiante { get; set; };
+        public string CodigoEstudiante { get; set; }
     }
 }

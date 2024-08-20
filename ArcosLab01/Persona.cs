@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ArcosLab01
 {
-    internal class Persona
+    public class Persona
     {
 
         public Persona(string nombres, string apellidos)

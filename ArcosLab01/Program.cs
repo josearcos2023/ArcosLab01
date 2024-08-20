@@ -34,8 +34,17 @@ namespace ArcosLab01
                 Nombres = nombre,
                 Apellidos = apellido
             };
-            
-            Console.WriteLine(persona.NombresCompletos);
+
+            Estudiante estudiante = new Estudiante()
+            {
+                Nombres = "Jose",
+                Apellidos = "Arcos",
+                CodigoEstudiante = "123456789"
+            };
+
+            Console.WriteLine("Hola Mundo");
+            Console.Read();
+
 
 
         }
